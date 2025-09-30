@@ -3,6 +3,7 @@ import bin from '../../assets/Frame.png'
 const SelectedPlayerCard = ({playCard, removePlayerCard}) => {
     const removeHandle = () => {
         removePlayerCard(playCard)
+        return
     }
     return (
         <div className='max-w-[1200px] m-auto'>

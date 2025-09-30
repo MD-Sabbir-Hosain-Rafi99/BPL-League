@@ -11,6 +11,10 @@ const PlayerCard = ({ player, availableBalance, setAvailableBalance, purchesedPl
             toast('You have no balance')
             return
         }
+        if (purchesedPlayer.length === 6) {
+            toast("Already 6 player selected!")
+            return 
+        }
         setIsSelected(true)
         setAvailableBalance(availableBalance - playerData.price);
         setPurchedPlayer([...purchesedPlayer, player]);
