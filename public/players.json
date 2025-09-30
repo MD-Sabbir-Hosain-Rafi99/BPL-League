@@ -1,0 +1,134 @@
+[
+    {
+    "id" : "11",
+    "player_image": "https://i.ibb.co.com/cKbKRYyP/7992d7c9ecf9aaf1e8c353c34b92c41e.jpg",
+    "player_name": "Shakib Al Hasan",
+    "player_country": "Bangladesh",
+    "player_role": "All-Rounder",
+    "rating": 90,
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Left-arm orthodox",
+    "price": 1380000
+  },
+  {
+    "id" : "2",
+    "player_image": "https://i.ibb.co.com/xKwSHbZ8/0b3178c0398671667bfab22ac97ec14e.jpg",
+    "player_name": "Kane Williamson",
+    "player_country": "New Zealand",
+    "player_role": "Batsman",
+    "rating": 88,
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm offbreak",
+    "price": 1250000
+  },
+  {
+    "id" : "3",
+    "player_image": "https://i.ibb.co.com/qH6P2JT/Fxd-Kc-J7-WAAEkk6-W.jpg",
+    "player_name": "Joe Root",
+    "player_country": "England",
+    "player_role": "Batsman",
+    "rating": 85,
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm offbreak",
+    "price": 1100000
+  },
+  {
+    "id" : "4",
+    "player_image": "https://i.ibb.co.com/dwD22FNc/AAEkk6W.webp",
+    "player_name": "Babar Azam",
+    "player_country": "Pakistan",
+    "player_role": "Batsman",
+    "rating": 90,
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm offbreak",
+    "price": 1400000
+  },
+  {
+    "id" : "5",
+    "player_image": "https://i.ibb.co.com/d0NCzWyY/51195f0acf6d7bf8d9c3272f96434fc7.jpg",
+    "player_name": "Steve Smith",
+    "player_country": "Australia",
+    "player_role": "Batsman",
+    "rating": 87,
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm legbreak",
+    "price": 1300000
+  },
+  {
+    "id" : "6",
+    "player_image": "https://i.ibb.co.com/MDLXw2tJ/7ec14e.webp",
+    "player_name": "Ben Stokes",
+    "player_country": "England",
+    "player_role": "All-Rounder",
+    "rating": 89,
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Right-arm fast-medium",
+    "price": 1350000
+  },
+  {
+    "id" : "7",
+    "player_image": "https://i.ibb.co.com/mVVp2Hnm/b684197e735264e9bc219bbea63c1b43.jpg",
+    "player_name": "Hardik Pandya",
+    "player_country": "India",
+    "player_role": "All-Rounder",
+    "rating": 84,
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast-medium",
+    "price": 1200000
+  },
+  {
+    "id" : "8",
+    "player_image": "https://i.ibb.co.com/p6ZwVP6q/40fc6ea2-fcf7-4819-be55-df8672d2c5bf.jpg",
+    "player_name": "Pat Cummins",
+    "player_country": "Australia",
+    "player_role": "Bowler",
+    "rating": 91,
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast",
+    "price": 1450000
+  },
+  {
+    "id" : "9",
+    "player_image": "https://i.ibb.co.com/tMBP857H/98671667bfab22ac97ec14e.webp",
+    "player_name": "Rashid Khan",
+    "player_country": "Afghanistan",
+    "player_role": "Bowler",
+    "rating": 93,
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm legbreak googly",
+    "price": 1550000
+  },
+  {
+    "id" : "10",
+    "player_image": "https://i.ibb.co.com/99cz434T/Mitchell-Starc-2-2025-09-db920a9a64246a76adf6786263660401-scaled.jpg",
+    "player_name": "Mitchell Starc",
+    "player_country": "Australia",
+    "player_role": "Bowler",
+    "rating": 86,
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Left-arm fast",
+    "price": 1250000
+  },
+  {
+    "id" : "1",
+    "player_image": "https://i.ibb.co.com/wN7qZD50/Virat-Kohli-in-PMO-New-Delhi.jpg",
+    "player_name": "Virat Kohli",
+    "player_country": "India",
+    "player_role": "Batsman",
+    "rating": 92,
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium",
+    "price": 1500000
+  },
+  {
+    "id" : "12",
+    "player_image": "https://i.ibb.co.com/hwfX3CJ/21c90e382ca349c2c190dfbae1ba4af6.jpg",
+    "player_name": "Jasprit Bumrah",
+    "player_country": "India",
+    "player_role": "Bowler",
+    "rating": 92,
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast",
+    "price": 1500000
+  }
+]
