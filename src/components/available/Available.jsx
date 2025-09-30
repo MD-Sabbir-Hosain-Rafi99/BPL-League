@@ -2,7 +2,7 @@ import React, { use } from 'react'
 
 import PlayerCard from '../playerscard/PlayerCard'
 
-const Available = ({ playerJsonPromiseData, availableBalance, setAvailableBalance, purchesedPlayer, setPurchedPlayer }) => {
+const Available = ({ playerJsonPromiseData, availableBalance, setAvailableBalance, purchesedPlayer, setPurchedPlayer}) => {
 
     const availablePlayer = use(playerJsonPromiseData)
     // console.log(availablePlayer)

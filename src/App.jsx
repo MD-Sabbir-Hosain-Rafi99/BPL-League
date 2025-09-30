@@ -5,6 +5,8 @@ import Navbar from './components/navbar/Navbar'
 import Available from './components/available/Available'
 import SelectedPlayer from './components/selected/SelectedPlayer'
 import { ToastContainer} from 'react-toastify';
+import Banner from './components/banner/Banner'
+
 
 const fetchPlayersData = async () => {
   const res = await fetch('players.json')
@@ -33,9 +35,14 @@ function App() {
     setPurchedPlayer(filterPlayerData)
     setAvailableBalance(availableBalance + p.price)
   }
+
+  const addMorePlayers = () => {
+    setToggle(true)
+  }
   return (
     <>
       <Navbar availableBalance={availableBalance}></Navbar>
+      <Banner></Banner>
       <div className="max-w-[1200px] mx-auto flex items-center justify-between">
         <h1 className='font-bold text-2xl'>{toggle === true ? "Available" : `Selected Player (${purchesedPlayer.length}/6)`}</h1>
         <div className="">
@@ -46,7 +53,7 @@ function App() {
       {
         toggle === true ? <Suspense fallback={<span className="loading loading-spinner loading-xl"></span>}>
           <Available purchesedPlayer={purchesedPlayer} setPurchedPlayer={setPurchedPlayer} availableBalance={availableBalance} setAvailableBalance={setAvailableBalance} playerJsonPromiseData={playerJsonPromiseData}></Available>
-        </Suspense> : <SelectedPlayer removePlayerCard={removePlayerCard} purchesedPlayer={purchesedPlayer}></SelectedPlayer>
+        </Suspense> : <SelectedPlayer addMorePlayers={addMorePlayers} removePlayerCard={removePlayerCard} purchesedPlayer={purchesedPlayer}></SelectedPlayer>
       }
       <ToastContainer />
     </>

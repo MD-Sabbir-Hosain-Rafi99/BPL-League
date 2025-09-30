@@ -21,6 +21,7 @@ const SelectedPlayerCard = ({playCard, removePlayerCard}) => {
                     <img src={bin} alt="" />
                 </div>
             </div>
+            
         </div>
     )
 }
